@@ -1,1 +1,270 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: #fd7d75;
+}
+html header .head1,
+body header .head1 {
+  background-color: #1a3062;
+}
+html header .head1 nav,
+body header .head1 nav {
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  justify-content: space-evenly;
+  width: 95%;
+  text-align: center;
+}
+html header .head1 nav a,
+body header .head1 nav a {
+  text-decoration: none;
+  color: white;
+}
+html header .head2,
+body header .head2 {
+  background-color: #5374be;
+}
+html header .head2 .banner img,
+body header .head2 .banner img {
+  width: 100%;
+  border-bottom: #1a3062 10px solid;
+}
+html header .headtitle,
+body header .headtitle {
+  text-align: center;
+  border-bottom: rgb #1a3062 10px solid;
+}
+html header .headtitle h1,
+body header .headtitle h1 {
+  width: 85%;
+  margin: 0 auto;
+  font-size: xx-large;
+  color: white;
+  padding-bottom: 0.5em;
+  border-bottom: gold 2px solid;
+  margin-bottom: 0.5em;
+}
+html header .headtitle p,
+body header .headtitle p {
+  font-size: large;
+  margin-bottom: 1em;
+  color: #1a3062;
+}
+html .content,
+body .content {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background-color: #272042;
+  border-radius: 10px;
+  padding: 5%;
+}
+html .content p,
+body .content p {
+  color: white;
+}
+html .content h2,
+body .content h2 {
+  font-size: x-large;
+  margin-bottom: 1em;
+  color: #fd7d75;
+}
+html .content .intro,
+body .content .intro {
+  width: 45%;
+  margin-right: 10%;
+}
+html .content .intro p,
+body .content .intro p {
+  line-height: 1.5em;
+}
+html .content .skills,
+body .content .skills {
+  width: 45%;
+  text-decoration: none;
+}
+html .content .skills p,
+body .content .skills p {
+  border: gold 4px solid;
+  padding: 1em;
+}
+html .container2,
+body .container2 {
+  padding-bottom: 1em;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #272042;
+}
+html .container2 h2,
+body .container2 h2 {
+  font-size: xx-large;
+  color: white;
+}
+html .container2 .categories,
+body .container2 .categories {
+  margin-top: 1em;
+  padding-left: 1em;
+  color: gold;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+html .container2 .job-1,
+body .container2 .job-1 {
+  background-color: rgba(60, 50, 102, 0.356);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+html .container2 .job-1 p,
+body .container2 .job-1 p {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+html .container2 .job-2,
+body .container2 .job-2 {
+  background-color: #1a3062;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+html .container2 .job-2 p,
+body .container2 .job-2 p {
+  padding-left: 1em;
+  padding-right: 1em;
+}
